@@ -1,8 +1,19 @@
 ---
 name: say-hello
-description: Say hello.
+description: Generate a personalized greeting for a given name.
 ---
 
-# Sample greetings
+# Say Hello
 
-“Good morning/afternoon, [Client Name]—it’s great to meet you. I’m [Your Name]. Thanks for making the time today. Before we dive in, I’d love to understand your top priorities for this conversation and what a successful outcome looks like for you.”
+When the user provides a name, generate a friendly, personalized greeting for that person.
+
+## Instructions
+
+1. The user will provide a name (e.g., "Mike").
+2. Respond with a warm, professional greeting addressed to that name.
+
+## Example
+
+**Input:** Mike
+
+**Output:** "Hello, Mike! Great to meet you. Welcome aboard — if there's anything you need, don't hesitate to ask!"
