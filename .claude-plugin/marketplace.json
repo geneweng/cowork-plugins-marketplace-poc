@@ -1,0 +1,13 @@
+{
+  "name": "cowork-plugins-marketplace-poc",
+  "owner": {
+    "name": "GW"
+  },
+  "plugins": [
+    {
+      "name": "hello",
+      "source": "./hello",
+      "description": "Say hello."
+    }
+  ]
+}
